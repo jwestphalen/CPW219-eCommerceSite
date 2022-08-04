@@ -7,7 +7,7 @@ namespace CPW219_eCommerceSite.Data
         public VideoGameContext(DbContextOptions<VideoGameContext> options)
             : base(options)
         {
-
+            
         }
 
         public DbSet<Game> Games { get; set; }
